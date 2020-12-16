@@ -1,3 +1,4 @@
+# to grab a remote frame over the same network
 import socket
 import sys
 
@@ -6,8 +7,8 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # IP = "192.168.43.33"
 
-# vishal lappy ip IP = "10.194.35.37"
-# bindal lappy ip
+# lappy ip IP = "10.194.35.37"
+
 IP = "192.168.43.33"
 
 try:
